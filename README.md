@@ -27,6 +27,6 @@
 
 ## Setup
 1. **Clone the repository:**
-'''bash
-git clone [https://github.com/booleanbrain/kmer_gc_analyzer.git](https://github.com/booleanbrain/kmer_gc_analyzer.git)
-cd kmer_gc_analyzer
+   ```bash
+   git clone [https://github.com/booleanbrain/kmer_gc_analyzer.git](https://github.com/booleanbrain/kmer_gc_analyzer.git)
+   cd kmer-gc-analyzer
