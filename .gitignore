@@ -1,3 +1,5 @@
 bioenv/
 __pycache__/
 *.pyc
+*.swp
+*/swap
