@@ -27,7 +27,7 @@ GC skew for locating replication origins.
 ### Requirements
 
 - **Python 3.8+**
-- **matplotlib** for generating graphs
+- **matplotlib**
 
 ### Setup
 1. **Clone the repository:**
