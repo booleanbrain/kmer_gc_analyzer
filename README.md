@@ -22,8 +22,8 @@
 
 ## Requirments
 
---**Python 3.8+**
---**'matplotlib** for generatiing graphs
+- **Python 3.8+**
+- **'matplotlib** for generatiing graphs
 
 ## Setup
 1. **Clone the repository:**
