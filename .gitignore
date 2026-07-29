@@ -5,3 +5,4 @@ __pycache__/
 *.swap
 *.swp
 tests/*.png
+kmer_gc_output/
