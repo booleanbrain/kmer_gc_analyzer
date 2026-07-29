@@ -1,4 +1,4 @@
-def read_fasta_func(path): #to return list of (seq_id, sequence) tuples
+def read_fasta(path): #to return list of (seq_id, sequence) tuples
 
     records = []
     current_id = None

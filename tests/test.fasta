@@ -10,3 +10,15 @@ GGGGGG
 AAAAA
 CCCCC
 VVVVV
+
+>seq3 no GC sequence
+
+aaaaa
+ttttt
+aaaa
+
+>seq4 only gc seqeuence
+
+gggggg
+cccccc
+gggggccc
