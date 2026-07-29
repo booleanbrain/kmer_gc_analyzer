@@ -1,8 +1,9 @@
 # k-mer GC Analyzer
+
+---
 A command-line tool for analyzing k-mer frequency and GC-content patterns
 in FASTA sequences, including sliding-window GC content and cumulative
 GC skew for locating replication origins.
----
 
 ## Features
 
@@ -37,24 +38,25 @@ GC skew for locating replication origins.
 2. **Setup a virtual environment**
 	```bash
    python3 -m venv venv
-```
+	```
 3. **Activate the virtual environment**
-  ```bash
-  source venv/bin/activate	# macOS/Linux
-  venv\Scripts\activate		# Windows
-```
+    ```bash
+    source venv/bin/activate	# macOS/Linux
+    venv\Scripts\activate		# Windows
+    ```
 4. **Install the dependencies**
-  ```bash
-  pip install matplotlib
-```
+    ```bash
+    pip install matplotlib
+    ```
 
 ## Usage
-```bash
-python3 main.py --fasta FASTA_FILE_PATH [--window WINDOW_SIZE] [--step STEP_LENGTH] [--output_path/-o OUTPUT_PATH] [--k K-MER_LENGTH]
-```
-```bash
-python3 main.py --fasta tests/test.fasta --window 4 --step 2
-```
+  ```bash
+    python3 main.py --fasta FASTA_FILE_PATH [--window WINDOW_SIZE] [--step STEP_LENGTH] [--output_path/-o OUTPUT_PATH] [--k K-MER_LENGTH]
+  ```
+- **Usage example:**
+  ```bash
+  python3 main.py --fasta tests/test.fasta --window 4 --step 2
+  ```
 
 ## Output
 
